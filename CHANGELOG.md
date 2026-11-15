@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0
+
+- 更名为 **Axiom · 公理**（原 Strata · 层析）。名字对准仓库的核心：判定标准是不随工具更换的公理。
+- 中英文介绍词改写，开头落在「工具会换，公理不换」/ "Tools rotate. Axioms don't."
+- 介绍视频重做：逐帧代码渲染，五幕、120 BPM 卡点、多层动态（流动光晕 / 粒子 / 几何基准线 / 色差 / 闪白 / 横条转场），
+  替换原来的静帧淡入淡出版。产物 `assets/axiom-intro.mp4`、`axiom-poster.png`、`axiom-intro-script.md`。
+
 ## 0.1.0
 
 第一个版本。把四个来源合成一个仓库：

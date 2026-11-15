@@ -1,12 +1,12 @@
-# Strata · 层析
+# Axiom · 公理
 
-> 一个仓库，放逆向工程里不会过期的那部分。
+> 工具会换，公理不换。
 
-[English version](README.en.md) · [MIT](LICENSE) · [22 秒介绍视频](assets/strata-intro.mp4) · [文字稿](assets/strata-intro-script.md)
+[English version](README.en.md) · [MIT](LICENSE) · [介绍视频](assets/axiom-intro.mp4) · [文字稿](assets/axiom-intro-script.md)
 
-工具换得很快，判断标准不该跟着换。扫描器报一堆"命中"，反编译器吐一段伪代码，产品拆解写得头头是道——哪一条能当结论用？
+做逆向最容易丢的不是工具，是判断标准。扫描器报一堆"命中"，反编译器吐一段伪代码，产品拆解写得头头是道——哪一条能当结论用？
 
-Strata 把标准放在最前面：**结论带证据和局限，命中过对照实验，推断标成推断**。`docs/evidence.md` 和 `docs/verification.md` 是所有模块共用的，脚本只负责产出能复核的原始材料，不负责下结论。
+Axiom 先写公理，再放工具。**结论带证据和局限，命中过对照实验，推断标成推断。** 这几条不是建议，是所有模块共用的前提，写在 `docs/evidence.md` 和 `docs/verification.md`；脚本只负责产出能复核的原始材料，不负责下结论。换工具可以，改公理要改整个仓库。
 
 ## 从两个项目合起来
 
@@ -46,7 +46,7 @@ python toolkit/verify_hit.py -h       # 任一命中先过一遍对照判定
 3. 脚本放 `tools/`，`-h` 能自解释，写操作带 `--dry-run`。
 4. 跑 `python check.py`，过了再提 PR。
 
-别另起顶层目录，也别复制一份证据规范。新能力先接到现有四层里，接不进去再讨论第五层。完整规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+别另起顶层目录，也别复制一份公理。新能力先接到现有四层里，接不进去再讨论第五层。完整规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 边界
 

@@ -1,12 +1,12 @@
-# Strata
+# Axiom
 
-> One repo for the parts of reverse engineering that don't go out of date.
+> Tools rotate. Axioms don't.
 
-[中文版](README.md) · [MIT](LICENSE) · [22s intro video](assets/strata-intro.mp4) · [script](assets/strata-intro-script.md)
+[中文版](README.md) · [MIT](LICENSE) · [intro video](assets/axiom-intro.mp4) · [script](assets/axiom-intro-script.md)
 
-Tools rotate. The bar for believing a result shouldn't. A scanner prints hits, a decompiler prints pseudocode, a teardown reads beautifully — none of that tells you which line is a finding.
+What gets lost in reverse engineering isn't tooling, it's the bar for believing a result. A scanner prints hits, a decompiler prints pseudocode, a teardown reads beautifully — none of that tells you which line is a finding.
 
-So the standard comes first: **a claim ships with its evidence and its limits; a hit survives a control experiment; an inference says it's an inference.** `docs/evidence.md` and `docs/verification.md` are shared by every module. Scripts produce raw material you can re-check, not verdicts.
+Axiom writes the axioms down before it ships any tool. **A claim carries its evidence and its limits; a hit survives a control experiment; an inference says it's an inference.** These aren't best practices, they're the premises every module shares, in `docs/evidence.md` and `docs/verification.md`. Scripts produce raw material you can re-check, not verdicts. Swap a tool whenever you like; changing an axiom means changing the whole repo.
 
 ## Two projects, one repo
 
@@ -46,7 +46,7 @@ python toolkit/verify_hit.py -h       # put any hit through a control first
 3. Put scripts under `tools/`, make `-h` self-explanatory, give writes a `--dry-run`.
 4. Run `python check.py`, then open a PR.
 
-Don't start a new top-level tree and don't fork the evidence rules. Fit new work into one of the four layers; if it doesn't fit, that's the discussion for a fifth. Full rules in [CONTRIBUTING.md](CONTRIBUTING.md).
+Don't start a new top-level tree and don't fork the axioms. Fit new work into one of the four layers; if it doesn't fit, that's the discussion for a fifth. Full rules in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Scope
 

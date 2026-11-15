@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Strata self-check. CI runs this exact file.
+"""Axiom self-check. CI runs this exact file.
 
     python check.py            # compile + CLI smoke + asset/secret guard
     python check.py --quick    # compile + guard only
@@ -122,7 +122,7 @@ def step_pyflakes():
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Strata self-check")
+    ap = argparse.ArgumentParser(description="Axiom self-check")
     ap.add_argument("--quick", action="store_true", help="compile + guard only")
     a = ap.parse_args()
 
