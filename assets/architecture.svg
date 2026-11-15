@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="Strata architecture">
+  <rect width="1200" height="620" fill="#f7f8fa"/>
+  <text x="60" y="66" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="34" font-weight="700" fill="#1c2430">Strata · 层析</text>
+  <text x="60" y="98" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="16" fill="#5d6875">One repo · one evidence standard · four target layers</text>
+
+  <rect x="60" y="128" width="1080" height="96" rx="10" fill="#e8edf3" stroke="#c9d3df"/>
+  <text x="84" y="158" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#2b3a4d">SHARED RULES</text>
+  <text x="84" y="186" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#1c2430">core/workflow · core/routing · docs/evidence · docs/verification</text>
+  <text x="84" y="210" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="#5d6875">every module references these, nobody forks them</text>
+
+  <path d="M600 224 L600 262" stroke="#9aa8b8" stroke-width="2"/>
+  <path d="M180 262 L1020 262" stroke="#9aa8b8" stroke-width="2"/>
+  <path d="M180 262 L180 286 M460 262 L460 286 M740 262 L740 286 M1020 262 L1020 286" stroke="#9aa8b8" stroke-width="2"/>
+
+  <g font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+    <rect x="60" y="286" width="240" height="150" rx="10" fill="#ffffff" stroke="#c9d3df"/>
+    <rect x="60" y="286" width="240" height="6" rx="3" fill="#3d6f9e"/>
+    <text x="80" y="324" font-size="19" font-weight="700" fill="#1c2430">native</text>
+    <text x="80" y="352" font-size="13" fill="#5d6875">PE / ELF / firmware</text>
+    <text x="80" y="376" font-size="13" fill="#5d6875">REA · Ghidra</text>
+    <text x="80" y="404" font-size="12" fill="#8b95a1">pseudocode · offsets</text>
+
+    <rect x="320" y="286" width="240" height="150" rx="10" fill="#ffffff" stroke="#c9d3df"/>
+    <rect x="320" y="286" width="240" height="6" rx="3" fill="#4d8c78"/>
+    <text x="340" y="324" font-size="19" font-weight="700" fill="#1c2430">mobile</text>
+    <text x="340" y="352" font-size="13" fill="#5d6875">APK / AAR / runtime</text>
+    <text x="340" y="376" font-size="13" fill="#5d6875">static checks · emulator</text>
+    <text x="340" y="404" font-size="12" fill="#8b95a1">UI tree · logcat</text>
+
+    <rect x="580" y="286" width="240" height="150" rx="10" fill="#ffffff" stroke="#c9d3df"/>
+    <rect x="580" y="286" width="240" height="6" rx="3" fill="#a9763c"/>
+    <text x="600" y="324" font-size="19" font-weight="700" fill="#1c2430">web</text>
+    <text x="600" y="352" font-size="13" fill="#5d6875">sites / APIs / bundles</text>
+    <text x="600" y="376" font-size="13" fill="#5d6875">baseline · five guards</text>
+    <text x="600" y="404" font-size="12" fill="#8b95a1">raw request + response</text>
+
+    <rect x="840" y="286" width="300" height="150" rx="10" fill="#ffffff" stroke="#c9d3df"/>
+    <rect x="840" y="286" width="300" height="6" rx="3" fill="#7a6aa8"/>
+    <text x="860" y="324" font-size="19" font-weight="700" fill="#1c2430">product</text>
+    <text x="860" y="352" font-size="13" fill="#5d6875">products / platforms / stacks</text>
+    <text x="860" y="376" font-size="13" fill="#5d6875">four layers · five axes</text>
+    <text x="860" y="404" font-size="12" fill="#8b95a1">public observable behaviour</text>
+  </g>
+
+  <path d="M600 436 L600 474" stroke="#9aa8b8" stroke-width="2"/>
+  <rect x="60" y="474" width="520" height="96" rx="10" fill="#eef2f6" stroke="#c9d3df"/>
+  <text x="84" y="504" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#2b3a4d">TOOLKIT</text>
+  <text x="84" y="530" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" fill="#1c2430">evidkit · verify_hit · verify_armor · check.py</text>
+  <text x="84" y="552" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#5d6875">shared by all layers</text>
+
+  <rect x="600" y="474" width="540" height="96" rx="10" fill="#f2f6f1" stroke="#bcd4bf" stroke-dasharray="6 4"/>
+  <text x="624" y="504" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#3a6b47">EXTENSION SLOT</text>
+  <text x="624" y="530" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" fill="#1c2430">targets/_template → new target → register in routing</text>
+  <text x="624" y="552" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#5d6875">add the next project without forking the rules</text>
+
+  <text x="60" y="600" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#8b95a1">Methods and evidence only · no live targets, samples or credentials</text>
+</svg>
